@@ -1,0 +1,35 @@
+{
+  "name": "purescript-enums",
+  "homepage": "https://github.com/purescript/purescript-enums",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-enums.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-control": "master",
+    "purescript-either": "master",
+    "purescript-gen": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-nonempty": "master",
+    "purescript-partial": "master",
+    "purescript-prelude": "master",
+    "purescript-tuples": "master",
+    "purescript-unfoldable": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master",
+    "purescript-console": "master"
+  }
+}
