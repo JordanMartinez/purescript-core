@@ -1,0 +1,38 @@
+{
+  "name": "purescript-gen",
+  "homepage": "https://github.com/purescript/purescript-gen",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-gen.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-either": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-identity": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-nonempty": "master",
+    "purescript-prelude": "master",
+    "purescript-tailrec": "master",
+    "purescript-tuples": "master",
+    "purescript-unfoldable": "master"
+  },
+  "devDependencies": {
+    "purescript-arrays": "master",
+    "purescript-assert": "master",
+    "purescript-console": "master",
+    "purescript-lcg": "master",
+    "purescript-math": "master",
+    "purescript-transformers": "master"
+  }
+}
