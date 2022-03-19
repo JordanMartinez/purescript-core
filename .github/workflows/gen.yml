@@ -1,0 +1,39 @@
+name: gen
+
+defaults:
+  run:
+    working-directory: gen
+
+on:
+  push:
+    paths: [gen/**]
+  pull_request:
+    paths: [gen/**]
+
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: purescript-contrib/setup-purescript@main
+        with:
+          purescript: "unstable"
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - name: Install dependencies
+        run: |
+          npm install -g bower
+          npm install
+          bower install --production
+
+      - name: Build source
+        run: npm run-script build
+
+      - name: Run tests
+        run: |
+          bower install
+          npm run-script test --if-present
