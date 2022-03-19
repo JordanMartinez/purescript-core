@@ -1,0 +1,5 @@
+# Last rule "wins"
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
+arrays @JordanMartinez
+prelude @JordanMartinez
+* @JordanMartinez
