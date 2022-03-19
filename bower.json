@@ -1,0 +1,40 @@
+{
+  "name": "purescript-datetime",
+  "homepage": "https://github.com/purescript/purescript-datetime",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-datetime.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-bifunctors": "master",
+    "purescript-control": "master",
+    "purescript-either": "master",
+    "purescript-enums": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-functions": "master",
+    "purescript-gen": "master",
+    "purescript-integers": "master",
+    "purescript-lists": "master",
+    "purescript-math": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-ordered-collections": "master",
+    "purescript-partial": "master",
+    "purescript-prelude": "master",
+    "purescript-tuples": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master",
+    "purescript-console": "master",
+    "purescript-strings": "master"
+  }
+}
