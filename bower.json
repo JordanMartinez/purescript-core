@@ -1,0 +1,41 @@
+{
+  "name": "purescript-foreign-object",
+  "homepage": "https://github.com/purescript/purescript-foreign-object",
+  "authors": [
+    "Phil Freeman <paf31@cantab.net>",
+    "John A. De Goes <john@degoes.net>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-foreign-object.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-arrays": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-functions": "master",
+    "purescript-gen": "master",
+    "purescript-lists": "master",
+    "purescript-maybe": "master",
+    "purescript-prelude": "master",
+    "purescript-st": "master",
+    "purescript-tailrec": "master",
+    "purescript-tuples": "master",
+    "purescript-typelevel-prelude": "master",
+    "purescript-unfoldable": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master",
+    "purescript-minibench": "master",
+    "purescript-quickcheck": "master"
+  }
+}
