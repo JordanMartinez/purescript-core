@@ -42,3 +42,7 @@ There's three ways to do this. The first one is what this repo is currently doin
 GitHub does not allow one to subscribe to notifications based on what labels are added to an issue. One can either opt-in to the entire repo's notifications or none at all.
 
 The best workaround I can think of is to use some GitHub Action to repost all conversation done in one issue to the corresponding PureScript repo and asking people to subscribe to that repo instead to get notified. The other alternative is to set up some service that notifies people separately. However, there entails a privacy concern.
+
+### Issue labeling
+
+Due to having all repos in one project, we would need repo-specific labels to indicate which project is affected by some bug. Moreover, the issue tracker could quickly become very large and discourage people from helping due to decision paralysis.
