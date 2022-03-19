@@ -1,0 +1,37 @@
+{
+  "name": "purescript-functors",
+  "homepage": "https://github.com/purescript/purescript-functors",
+  "description": "Functor products, coproducts, and composition",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-functors.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-bifunctors": "master",
+    "purescript-const": "master",
+    "purescript-contravariant": "master",
+    "purescript-control": "master",
+    "purescript-distributive": "master",
+    "purescript-either": "master",
+    "purescript-invariant": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-prelude": "master",
+    "purescript-profunctor": "master",
+    "purescript-tuples": "master",
+    "purescript-unsafe-coerce": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master"
+  }
+}
