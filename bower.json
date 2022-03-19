@@ -1,0 +1,42 @@
+{
+  "name": "purescript-lists",
+  "homepage": "https://github.com/purescript/purescript-lists",
+  "authors": [
+    "Phil Freeman <paf31@cantab.net>"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-lists.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-bifunctors": "master",
+    "purescript-control": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-lazy": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-nonempty": "master",
+    "purescript-partial": "master",
+    "purescript-prelude": "master",
+    "purescript-tailrec": "master",
+    "purescript-tuples": "master",
+    "purescript-unfoldable": "master"
+  },
+  "devDependencies": {
+    "purescript-arrays": "master",
+    "purescript-assert": "master",
+    "purescript-console": "master",
+    "purescript-math": "master",
+    "purescript-minibench": "master"
+  }
+}
