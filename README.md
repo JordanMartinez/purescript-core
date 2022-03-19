@@ -36,3 +36,9 @@ There's three ways to do this. The first one is what this repo is currently doin
 2 makes spams the "run" view when changes are made to all repos at once. Moreover, we would be editing a very large file.
 
 3 makes the best overall tradeoff by using a tree-like search.
+
+### Notification Spam
+
+GitHub does not allow one to subscribe to notifications based on what labels are added to an issue. One can either opt-in to the entire repo's notifications or none at all.
+
+The best workaround I can think of is to use some GitHub Action to repost all conversation done in one issue to the corresponding PureScript repo and asking people to subscribe to that repo instead to get notified. The other alternative is to set up some service that notifies people separately. However, there entails a privacy concern.
