@@ -1,0 +1,41 @@
+{
+  "name": "purescript-strings",
+  "homepage": "https://github.com/purescript/purescript-strings",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-strings.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-arrays": "master",
+    "purescript-control": "master",
+    "purescript-either": "master",
+    "purescript-enums": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-gen": "master",
+    "purescript-integers": "master",
+    "purescript-maybe": "master",
+    "purescript-newtype": "master",
+    "purescript-nonempty": "master",
+    "purescript-partial": "master",
+    "purescript-prelude": "master",
+    "purescript-tailrec": "master",
+    "purescript-tuples": "master",
+    "purescript-unfoldable": "master",
+    "purescript-unsafe-coerce": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master",
+    "purescript-console": "master",
+    "purescript-minibench": "master"
+  }
+}
