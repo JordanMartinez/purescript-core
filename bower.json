@@ -1,0 +1,36 @@
+{
+  "name": "purescript-foreign",
+  "homepage": "https://github.com/purescript/purescript-foreign",
+  "authors": [
+    "Gary Burgess <gary.burgess@gmail.com>",
+    "Phil Freeman <paf31@cantab.net>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-foreign.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "examples",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-either": "master",
+    "purescript-functions": "master",
+    "purescript-identity": "master",
+    "purescript-integers": "master",
+    "purescript-lists": "master",
+    "purescript-maybe": "master",
+    "purescript-prelude": "master",
+    "purescript-strings": "master",
+    "purescript-transformers": "master"
+  },
+  "devDependencies": {
+    "purescript-console": "master"
+  }
+}
