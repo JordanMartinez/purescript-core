@@ -1,0 +1,8 @@
+/.*
+!/.gitignore
+!/.github/
+/bower_components/
+/node_modules/
+/output/
+package-lock.json
+/tmp/
