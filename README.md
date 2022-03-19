@@ -12,7 +12,7 @@ Merging all repos' code into one repo had 2 merge conflicts
 
 These both had to be fixed by hand by copying and pasting current `master` content into repo since other folders were modified in the process.
 
-## GitHub Actions tradeoffs
+### GitHub Actions tradeoffs
 
 There's three ways to do this. The first one is what this repo is currently doing:
 1. One `ci.yml` file per repo (e.g. for `arrays` it would be `arrays.yml`).
