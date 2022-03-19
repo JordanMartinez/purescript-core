@@ -1,0 +1,31 @@
+{
+  "name": "purescript-catenable-lists",
+  "homepage": "https://github.com/purescript/purescript-catenable-lists",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript/purescript-catenable-lists.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-control": "master",
+    "purescript-foldable-traversable": "master",
+    "purescript-lists": "master",
+    "purescript-maybe": "master",
+    "purescript-prelude": "master",
+    "purescript-tuples": "master",
+    "purescript-unfoldable": "master"
+  },
+  "devDependencies": {
+    "purescript-assert": "master",
+    "purescript-console": "master"
+  }
+}
